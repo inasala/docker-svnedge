@@ -1,0 +1,39 @@
+version: "3.7"
+
+services:
+  edge:
+    image: svnedge/app:latest
+    ports:
+      - "18080:18080"
+      - "3343:3343"
+    environment:
+      SET_PERMS: "false"
+    restart: always
+    volumes:
+      - data:/home/svnedge/csvn/data
+    networks:
+      - my_network
+
+  client:
+    #カレントディレクトリになるDockerfileを指定してビルドする
+    build: .
+    #コンテナ名を決める。任意の名前に変更可能
+    container_name: 'svn-client'
+    #コンテナを起動し、ずっと実行させておくためのコマンド
+    command: 'tail -f /dev/null'
+
+    volumes:
+      - './work:/work'
+    networks:
+      - my_network
+
+volumes:
+  data:
+    driver_opts:
+      type: none
+      device: ./data
+      o: bind
+
+networks:
+  my_network:
+#    external: true

@@ -1,0 +1,10 @@
+[Sat May 01 12:35:47.472953 2021] [mpm_prefork:notice] [pid 608] AH00163: Apache/2.4.43 (Unix) SVN/1.14.0 configured -- resuming normal operations
+[Sat May 01 12:35:47.473108 2021] [core:notice] [pid 608] AH00094: Command line: '/home/svnedge/csvn/bin/httpd -f /home/svnedge/csvn/bin/../data/conf/httpd.conf'
+[Sat May 01 12:36:30.966392 2021] [auth_basic:error] [pid 624] [client 172.27.0.1:55456] AH01618: user  not found: /
+[Sat May 01 12:44:01.846496 2021] [auth_basic:error] [pid 623] [client 172.27.0.1:55566] AH01618: user kenjitakamura not found: /viewvc/first-repo/
+[Sat May 01 12:45:45.871395 2021] [mpm_prefork:notice] [pid 758] AH00163: Apache/2.4.43 (Unix) SVN/1.14.0 configured -- resuming normal operations
+[Sat May 01 12:45:45.871520 2021] [core:notice] [pid 758] AH00094: Command line: '/home/svnedge/csvn/bin/httpd -f /home/svnedge/csvn/data/conf/httpd.conf'
+[Sat May 01 13:11:30.207433 2021] [mpm_prefork:notice] [pid 597] AH00163: Apache/2.4.43 (Unix) SVN/1.14.0 configured -- resuming normal operations
+[Sat May 01 13:11:30.207783 2021] [core:notice] [pid 597] AH00094: Command line: '/home/svnedge/csvn/bin/httpd -f /home/svnedge/csvn/bin/../data/conf/httpd.conf'
+[Sat May 01 14:11:04.268556 2021] [mpm_prefork:notice] [pid 599] AH00163: Apache/2.4.43 (Unix) SVN/1.14.0 configured -- resuming normal operations
+[Sat May 01 14:11:04.268711 2021] [core:notice] [pid 599] AH00094: Command line: '/home/svnedge/csvn/bin/httpd -f /home/svnedge/csvn/bin/../data/conf/httpd.conf'

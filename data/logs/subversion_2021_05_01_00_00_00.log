@@ -1,0 +1,19 @@
+[01/May/2021:14:14:49 +0000] admin first-repo status / r0 0
+[01/May/2021:14:15:32 +0000] admin first-repo list / r0 depth=immediates <ANY> 0
+[01/May/2021:14:17:09 +0000] admin first-repo list / r0 depth=immediates <ANY> 0
+[01/May/2021:14:18:43 +0000] admin first-repo commit r1 1
+[01/May/2021:14:28:14 +0000] admin first-repo list / r0 depth=immediates <ANY> 0
+[01/May/2021:14:29:16 +0000] admin first-repo log (/) r0:0 revprops=(svn:author svn:date svn:log) 0
+[01/May/2021:14:33:27 +0000] admin first-repo log (/) r0:0 revprops=(svn:author svn:date svn:log) 0
+[01/May/2021:14:35:12 +0000] admin first-repo commit r2 1
+[01/May/2021:14:37:44 +0000] admin first-repo commit r3 1
+[01/May/2021:14:40:51 +0000] admin first-repo list / r0 depth=immediates <ANY> 0
+[01/May/2021:14:41:14 +0000] admin first-repo log (/) r0:0 revprops=(svn:author svn:date svn:log) 0
+[01/May/2021:14:41:34 +0000] admin first-repo log (/) r0:0 discover-changed-paths revprops=(svn:author svn:date svn:log) 0
+[01/May/2021:14:46:42 +0000] admin first-repo commit r4 1
+[01/May/2021:14:48:29 +0000] admin first-repo get-inherited-props /trunk r4 0
+[01/May/2021:14:48:30 +0000] admin first-repo checkout-or-export /trunk r4 0
+[01/May/2021:14:48:45 +0000] admin first-repo list / r0 depth=immediates <ANY> 0
+[01/May/2021:14:48:52 +0000] admin first-repo log (/) r0:0 revprops=(svn:author svn:date svn:log) 0
+[01/May/2021:14:51:04 +0000] admin first-repo commit r5 1
+[01/May/2021:14:56:58 +0000] admin first-repo commit r6 1
